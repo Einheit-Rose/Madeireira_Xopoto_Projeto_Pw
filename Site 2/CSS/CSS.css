@@ -1,0 +1,302 @@
+body{
+    position: relative;
+    padding-top: 90px;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-bottom: 90px;
+    margin: 0px;
+    background-image: url(../HTML/Imagens/Background_02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.Cabeçalho{
+    position: fixed;
+    background-color: #B63D32;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#Logo{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+ul{
+    font-family: 'Lora', sans-serif;
+}
+#Nome{
+    position: fixed;
+    color: white;
+    font-size: 35px;
+    font-family: 'Lora', sans-serif;
+    top: 15px;
+    left: 85px;
+    padding: 2px 5px 2px 5px;
+}
+.Menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+}
+#Top_Menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    margin-right: 35px;
+    font-size: 26px;
+}
+li{
+    margin-left: 20px;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:active{
+    color: black;
+    background-color: #ffffff;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+a:hover{
+    color: black;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+.Container{
+    align-items: center;
+    border: 10px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+}
+h1{
+    font-size: 62px;
+    font-family: 'Lora', sans-serif;
+    color: darkred;
+    text-align: center;
+}
+.Texto{
+    width: 75%;
+    margin-left: 12.5%;
+}
+.bg_texto{
+    width: 85%;
+    margin-left: 6%;
+    background-image: url(/HTML/Imagens/Background.png);
+    background-size: cover;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.Box{
+    height: 200px;
+    width: 200px;
+    background-color: #B63D32;
+    border: #B63D32;
+    border-radius: 15px;
+    padding-top: 10px;
+    font-size: 30px;
+    box-shadow: 5px 5px 3px #2e0400;
+}
+.Text_Containers{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    margin-right: 35px;
+    font-size: 26px;
+}
+.Text_Containers_Text{
+    text-align: center;
+    margin-left: 12%;
+    font-size: 36px;
+    font-family: 'Lora', sans-serif;    color: white;
+}
+.Boas_vindas{
+    font-family: 'Lora', sans-serif;
+    font-size: 26px;
+    color: #360f0f;
+    text-align: center;
+}
+h2{
+    font-size: 42px;
+    font-family: 'Lora', sans-serif;
+    color: #490000;
+    text-align: center;
+}
+h3{
+    font-family: 'Lora', sans-serif;
+    font-size: 32px;
+}
+.Barra{
+    color: #B63D32;
+}
+.Serviços{
+    font-family: 'Lora', sans-serif;
+    font-size: 20px;
+    color: #2e0400;
+    text-align: center;
+}
+.Img{
+    border: 6px solid #B63D32;
+    border-radius: 3px;
+    box-shadow: 5px 5px 3px #2e0400;
+    height: 349px;
+    width: 600px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.Text_Box{
+    height: 349px;
+    width: 600px;
+}
+.Missão{
+    padding-top: 5%;
+    padding-left: 5%;
+    text-align: left;
+    color: #490000;
+}
+.Texto_Sobre{
+    font-family: 'Lora', sans-serif;
+    font-size: 28px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    color: #5e1912;
+}
+.Text_Containers_01{
+    list-style: none;
+    display: flex;
+    height: 100%;
+    margin-left: 1.5%;
+    margin-top: 0;
+}
+#Valores{
+    font-family: 'Lora', sans-serif;
+    font-size: 20px;
+    color: #5e1912;
+}
+.Valores_01{
+    padding-top: -5px;
+    padding-left: 5%;
+    padding-bottom: -10px;
+    color: #490000;
+   
+}
+.Titulo_Valores{
+    font-family: 'Lora', sans-serif;
+    font-size: 22px;
+    font-weight: 580;
+    color: #2e0400;
+}
+#Contato{
+    list-style: none;
+}
+#Serv_Contato{
+    padding-top: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    font-family: 'Lora', sans-serif;
+    color: #2e0400;
+    font-size: 22px;
+}
+#Entre_Contato{
+    font-size: 28px;
+    text-align: left;
+}
+#Endereço{
+    text-align: justify;
+    padding-right: 10%;
+    font-size: 20px;
+    font-family: 'Lora', sans-serif;
+}
+
+#input_mensagem{
+    height: 80px;
+}
+.Dados{
+    width: 50%;
+    margin-left: 32%;
+    border-radius: 5px;
+    border: 2px solid #B63D32;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: 'Lora', sans-serif;
+}
+#Botão{
+    margin-left: 59.5%;
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px;
+    text-transform: uppercase;
+    background-color: #B63D32;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+#Botão:hover{
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px;
+    text-transform: uppercase;
+    background-color: #5e1912;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+#Botão:active{
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px;
+    text-transform: uppercase;
+    background-color: #490000;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+form{
+    width: 75%;
+    margin-left: 3.5%;
+}
+textarea{
+    height: 75px;
+    resize: none;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: #B63D32;
+    margin: 0;
+    height: 55px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
